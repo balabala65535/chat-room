@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+flask-restful = "*"
+flask-login = "*"
+flask-bcrypt = "*"
+sqlalchemy = "*"
+flask-socketio = "*"
+bleach = "*"
+markdown = "*"
+flask-wtf = "*"
+flask-oauthlib = "*"
+mysql = "*"
+mysql-connector-python-rf = "==2.2.2"
+pymysql = "*"
+mysqlclient = "*"
+
+[requires]
+python_version = "3.5"
